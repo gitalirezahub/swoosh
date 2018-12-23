@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA404F5321CED3C40006037C /* CurrenctTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404F5221CED3C40006037C /* CurrenctTextField.swift */; };
-		FA404F5521CED4820006037C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404F5421CED4820006037C /* CustomTextField.swift */; };
+		FA404F5721D013AB0006037C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404F5621D013AB0006037C /* Wage.swift */; };
+		FA404F5821D01BBD0006037C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404F5621D013AB0006037C /* Wage.swift */; };
 		FACA585D21C59F1300A1A6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA585C21C59F1300A1A6D3 /* AppDelegate.swift */; };
 		FACA585F21C59F1300A1A6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA585E21C59F1300A1A6D3 /* ViewController.swift */; };
 		FACA586221C59F1300A1A6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA586021C59F1300A1A6D3 /* Main.storyboard */; };
@@ -36,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA404F5221CED3C40006037C /* CurrenctTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenctTextField.swift; sourceTree = "<group>"; };
-		FA404F5421CED4820006037C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FA404F5621D013AB0006037C /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		FACA585921C59F1300A1A6D3 /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACA585C21C59F1300A1A6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACA585E21C59F1300A1A6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,13 +77,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA404F4F21CECF350006037C /* Views */ = {
+		FA404F4F21CECF350006037C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FA404F5221CED3C40006037C /* CurrenctTextField.swift */,
-				FA404F5421CED4820006037C /* CustomTextField.swift */,
+				FA404F5621D013AB0006037C /* Wage.swift */,
 			);
-			path = Views;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FACA585021C59F1300A1A6D3 = {
@@ -110,7 +108,7 @@
 		FACA585B21C59F1300A1A6D3 /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				FA404F4F21CECF350006037C /* Views */,
+				FA404F4F21CECF350006037C /* Model */,
 				FACA585C21C59F1300A1A6D3 /* AppDelegate.swift */,
 				FACA585E21C59F1300A1A6D3 /* ViewController.swift */,
 				FACA586021C59F1300A1A6D3 /* Main.storyboard */,
@@ -273,9 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA404F5521CED4820006037C /* CustomTextField.swift in Sources */,
 				FACA585F21C59F1300A1A6D3 /* ViewController.swift in Sources */,
-				FA404F5321CED3C40006037C /* CurrenctTextField.swift in Sources */,
+				FA404F5721D013AB0006037C /* Wage.swift in Sources */,
 				FACA585D21C59F1300A1A6D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACA587221C59F1300A1A6D3 /* swooshTests.swift in Sources */,
+				FA404F5821D01BBD0006037C /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
